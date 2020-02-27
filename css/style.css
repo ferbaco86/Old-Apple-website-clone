@@ -1,0 +1,69 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  /* width: 100%; */
+  margin: -25px -10px 0 -10px;
+}
+.apple-navbar {
+  position: absolute;
+  top: 50px;
+  left: 15%;
+  right: 15%;
+  background-color: lightblue;
+  
+  z-index: 1;
+}
+
+.apple-navbar-list-item {
+  display: inline-block;
+}
+
+.apple-navbar-list {
+  list-style: none;
+}
+
+.nav-item-link {
+  background-color: lightcoral;
+  border: 1px solid green;
+  padding: 5px 30px 5px 30px;
+  margin: -3px;
+}
+
+.logo {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+ /*  left: 50%; */
+  width: 100%;
+  height: 900px;
+  background-image: url(../images/apple-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: 0 180%;
+  background-size: 100%;
+}
+
+.main-title {
+  position: relative;
+  top: 20%;
+  text-align: center;
+  font-family: 'Lucida Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: lighter;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.carrousel-pics {
+  
+}
+
+.apple-footer {
+  
+}
+
