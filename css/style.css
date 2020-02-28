@@ -6,15 +6,13 @@
 
 body {
   /* width: 100%; */
-  margin: -25px -10px 0 -10px;
+  margin: -25px -10px auto -10px;
 }
 .apple-navbar {
   position: absolute;
   top: 50px;
   left: 15%;
   right: 15%;
-  background-color: lightblue;
-  
   z-index: 1;
 }
 
@@ -39,31 +37,66 @@ body {
 }
 
 .container {
- /*  left: 50%; */
-  width: 100%;
-  height: 900px;
+  position: relative;
+  /* left: 50%; */
+  /* margin-top: -50px; */
+  background-color: yellow;
   background-image: url(../images/apple-bg.jpeg);
   background-repeat: no-repeat;
-  background-position: 0 180%;
+  background-position: 0 97%;
   background-size: 100%;
 }
 
 .main-title {
   position: relative;
-  top: 20%;
+  top: 120px;
   text-align: center;
-  font-family: 'Lucida Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: lighter;
-  font-size: 3.5rem;
-  color: white;
+}
+
+.sub-title {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+.title-link {
+  position: relative;
+  width: 40%;
+  bottom: -90px;
+  left: 30%;
+  text-align: center;
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 30px;
+}
+
+.title-link:hover {
+  position: relative;
+  /* top: 11%; */
+  /* text-align: right; */
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-repeat: no-repeat;
+  background-position: 50% -32px;
+  height: 30px;
 }
 
 .carrousel-pics {
-  
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  top: 202px;
+  background-color: blue;
 }
 
 .apple-footer {
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  font-size: 10px;
+  font-family: "Lucida Grande";
   
 }
 
