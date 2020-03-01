@@ -1,0 +1,235 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: -22px auto auto auto;
+}
+
+.apple-navbar {
+  top: 50px;
+  left: 15%;
+  right: 15%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.apple-navbar-list-item {
+  display: inline-block;
+}
+
+.apple-navbar-list-item div {
+  padding: 10px 0 10px 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  height: 36px;
+  align-items: center;
+  background-image:
+    linear-gradient(
+      to bottom,
+      #686868,
+      #5e5e5e 50%,
+      #707070 50%,
+      #8d8d8d
+    );
+}
+
+.apple-navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.first-border-style {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: 1px solid #545454;
+}
+
+.nav-item-link {
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: center;
+  height: 36px;
+  width: 105px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid #525151;
+  font-family: "Lucida Grande", 'Lucida Sans', sans-serif;
+  font-size: 13px;
+  background-image:
+    linear-gradient(
+      to bottom,
+      #686868,
+      #5e5e5e 50%,
+      #707070 50%,
+      #8d8d8d
+    );
+}
+
+.nav-item-link:hover {
+  background-image:
+    linear-gradient(
+      to top,
+      #3f3f3f,
+      #383838 50%,
+      #434343 50%,
+      #555
+    );
+}
+
+.search-bar {
+  margin-left: 10px;
+  margin-right: -10px;
+  border-radius: 20px;
+  color: #000;
+  width: 110px;
+  height: 23px;
+  background-image:
+    linear-gradient(
+      to bottom,
+      #686868,
+      #5e5e5e 50%,
+      #707070 50%,
+      #8d8d8d
+    );
+  border-top: 2px solid #2b2a2a;
+  border-left: 2px solid #6e6e6e;
+  border-right: 2px solid #6e6e6e;
+  border-bottom: 2px solid #6e6e6e;
+}
+
+.search-bar:focus {
+  background-image: none;
+}
+
+.search-icon {
+  position: relative;
+  right: 90px;
+  background-image: url(../images/search-icon.png);
+  background-size: 12px;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.logo {
+  width: 20px;
+}
+
+.container {
+  position: relative;
+  background-image: url(../images/apple-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: 0 96%;
+  background-size: 100%;
+}
+
+.main-title {
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+
+.sub-title {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+.title-link {
+  position: relative;
+  width: 40%;
+  bottom: -90px;
+  left: 30%;
+  text-align: center;
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 30px;
+}
+
+.title-link:hover {
+  position: relative;
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-repeat: no-repeat;
+  background-position: 50% -32px;
+  height: 30px;
+}
+
+.carrousel-pics {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 202px;
+}
+
+.promo-img {
+  width: 364px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone5s {
+  background-image: url(../images/promo_iphone5s.jpg);
+}
+
+.iphone5c {
+  background-image: url(../images/promo_iphone5c.jpg);
+}
+
+.anniversary {
+  background-image: url(../images/promo_30_years.jpg);
+}
+
+.supplier {
+  background-image: url(../images/promo_supplier.jpg);
+}
+
+.nav-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.apple-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.apple-info-links {
+  color: #08c;
+}
+
+.apple-info-links:link,
+.apple-info-links:visited,
+.apple-info-links:active {
+  text-decoration: none;
+}
+
+.apple-info-links:hover {
+  text-decoration: underline;
+}
+
+.flag-icon {
+  width: 15px;
+}
+
+.apple-footer {
+  position: relative;
+  top: 200px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  font-size: 10px;
+  font-family: "Lucida Grande", 'Lucida Sans', sans-serif;
+  color: #6e6e6e;
+}
