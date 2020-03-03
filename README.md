@@ -12,7 +12,7 @@ A clone of an old homepage of Apple.com
 
 ## Live Demo
 
-https://rawcdn.githack.com/ferbaco86/Old-Apple-website-clone/90ecf9d3a48db6aca06cb6d909ef5a723fe6861c/index.html
+https://rawcdn.githack.com/ferbaco86/Old-Apple-website-clone/62debc17f07ca055916247a7499eb754093049cb/index.html
 
 ## Authors
 
