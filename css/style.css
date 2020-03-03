@@ -31,12 +31,14 @@ body {
   align-items: center;
   background-image:
     linear-gradient(
-      to bottom,
+      to top,
       #686868,
       #5e5e5e 50%,
       #707070 50%,
       #8d8d8d
     );
+    box-shadow: 1px 1px 1px #414040;
+    border-top: 1px solid #7e7d7d;
 }
 
 .apple-navbar-list {
@@ -64,12 +66,14 @@ body {
   font-size: 13px;
   background-image:
     linear-gradient(
-      to bottom,
+      to top,
       #686868,
       #5e5e5e 50%,
       #707070 50%,
       #8d8d8d
     );
+    box-shadow: 1px 1px 1px #414040;
+    border-top: 1px solid #7e7d7d;
 }
 
 .nav-item-link:hover {
@@ -92,7 +96,7 @@ body {
   height: 23px;
   background-image:
     linear-gradient(
-      to bottom,
+      to top,
       #686868,
       #5e5e5e 50%,
       #707070 50%,
@@ -169,6 +173,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   top: 202px;
+  cursor: pointer;
 }
 
 .promo-img {
