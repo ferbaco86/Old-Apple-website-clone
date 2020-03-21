@@ -20,7 +20,7 @@ https://rawcdn.githack.com/ferbaco86/Old-Apple-website-clone/62debc17f07ca055916
 
 - Github: [@ferbaco86](https://github.com/ferbaco86)
 - Twitter: [@ferbac0](https://twitter.com/ferbac0)
-- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa-9632051a2/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa)
 
 ## 🤝 Contributing
 
